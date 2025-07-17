@@ -1,0 +1,98 @@
+
+
+/* Body and overall font */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #000;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Images */
+#logo, #product {
+    display: block;
+    margin: 0 auto 20px auto;
+    max-width: 200px;
+    height: auto;
+}
+
+/* Description paragraph */
+#desc p {
+    font-size: 18px;
+    max-width: 600px;
+    margin: 0 auto 30px auto;
+    text-align: center;
+}
+
+/* Section with characteristics */
+#list {
+    max-width: 600px;
+    margin: 0 auto 30px auto;
+}
+
+#list h1 {
+    font-size: 25px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#list ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+#list li {
+    margin-bottom: 8px;
+    font-size: 16px;
+}
+
+/* Promo section */
+#promo h4 {
+    font-style: italic;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Button styling */
+#button {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#button button {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+#button button:hover {
+    background-color: #444;
+}
+
+/* Footer styling */
+footer {
+    border-top: 1px solid #000;
+    padding-top: 20px;
+}
+
+.footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+
